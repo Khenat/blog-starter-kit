@@ -2,8 +2,8 @@ import { Html, Head, Main, NextScript } from 'next/document'
 
 export default function Document() {
   const meta = {
-    title: 'Pranshu Khanna',
-    description: 'Website metas are so meta.',
+    title: 'Shubham Khenat',
+    description: 'Always be selling.',
     image: 'images/pransh-og-image-1-min.png'
   }
 
@@ -18,7 +18,7 @@ export default function Document() {
         <meta property="og:image" content={meta.image} />
         <meta property="og:url" content="https://pran.sh/" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@inmypranshoes" />
+        <meta name="twitter:site" content="@KhenatShubham" />
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
